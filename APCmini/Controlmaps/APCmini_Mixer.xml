@@ -1,0 +1,51 @@
+<Device>
+  <Name>Akai APCmini</Name>
+  <Author>genesis06</Author>
+  <Description>A mixer layout for the AKAI APC Mini controller</Description>
+  <Parameters>
+    <Column>
+		<Row>
+   		<Group name="Solo" orientation="horizontal">
+            <Param value="G#-1|Ch1" type="pushbutton" name="Solo 1" aspect="0.6" maximum="127" minimum="0"/>
+            <Param value="A--1|Ch1" type="pushbutton" name="Solo 2" aspect="0.6" maximum="127" minimum="0"/>
+            <Param value="A#-1|Ch1" type="pushbutton" name="Solo 3" aspect="0.6" maximum="127" minimum="0"/>
+            <Param value="B--1|Ch1" type="pushbutton" name="Solo 4" aspect="0.6" maximum="127" minimum="0"/>
+            <Param value="C-0|Ch1" type="pushbutton" name="Solo 5" aspect="0.6" maximum="127" minimum="0"/>
+            <Param value="C#0|Ch1" type="pushbutton" name="Solo 6" aspect="0.6" maximum="127" minimum="0"/>
+            <Param value="D-0|Ch1" type="pushbutton" name="Solo 7" aspect="0.6" maximum="127" minimum="0"/>
+            <Param value="D#0|Ch1" type="pushbutton" name="Solo 8" aspect="0.6" maximum="127" minimum="0"/>
+          </Group>
+		</Row>
+		<Row>
+      	<Group name="Mute" orientation="horizontal">
+            <Param value="C--1|Ch1" type="pushbutton" name="Mute 1" aspect="0.6" maximum="127" minimum="0"/>
+            <Param value="C#-1|Ch1" type="pushbutton" name="Mute 2" aspect="0.6" maximum="127" minimum="0"/>
+            <Param value="D--1|Ch1" type="pushbutton" name="Mute 3" aspect="0.6" maximum="127" minimum="0"/>
+            <Param value="D#-1|Ch1" type="pushbutton" name="Mute 4" aspect="0.6" maximum="127" minimum="0"/>
+            <Param value="E--1|Ch1" type="pushbutton" name="Mute 5" aspect="0.6" maximum="127" minimum="0"/>
+            <Param value="F--1|Ch1" type="pushbutton" name="Mute 6" aspect="0.6" maximum="127" minimum="0"/>
+            <Param value="F#-1|Ch1" type="pushbutton" name="Mute 7" aspect="0.6" maximum="127" minimum="0"/>
+            <Param value="G--1|Ch1" type="pushbutton" name="Mute 8" aspect="0.6" maximum="127" minimum="0"/>
+       	</Group>
+   	</Row>    
+      <Row>
+        <Column>
+          <Group name="Track Fader" columns="8">
+            <Param value="CC#48|Ch1" type="fader" name="Fader 1" orientation="vertical"  size="3" maximum="127" minimum="0"/>
+            <Param value="CC#49|Ch1" type="fader" name="Fader 2" orientation="vertical"  size="3" maximum="127" minimum="0"/>
+            <Param value="CC#50|Ch1" type="fader" name="Fader 3" orientation="vertical"  size="3" maximum="127" minimum="0"/>
+            <Param value="CC#51|Ch1" type="fader" name="Fader 4" orientation="vertical"  size="3" maximum="127" minimum="0"/>
+            <Param value="CC#52|Ch1" type="fader" name="Fader 5" orientation="vertical"  size="3" maximum="127" minimum="0"/>
+            <Param value="CC#53|Ch1" type="fader" name="Fader 6" orientation="vertical"  size="3" maximum="127" minimum="0"/>
+            <Param value="CC#54|Ch1" type="fader" name="Fader 7" orientation="vertical"  size="3" maximum="127" minimum="0"/>
+            <Param value="CC#55|Ch1" type="fader" name="Fader 8" orientation="vertical"  size="3" maximum="127" minimum="0"/>
+          </Group>
+        </Column>
+        <Group name="Master Fader" >
+          <Param value="CC#56|Ch1" type="fader" name="Master Fader" orientation="vertical"  size="3" maximum="127" minimum="0"/>
+        </Group>
+      </Row>
+      
+    </Column>
+  </Parameters>
+</Device>
